@@ -40,7 +40,7 @@ getWeather = (input, APIKey) => {
       console.error(`http.get error: ${e.message}`);
     });
   } catch (e) {
-    console.error(`Asynchronous error in https request: ${e.message}`);
+    console.error(`Asynchronous error in http request: ${e.message}`);
   }
 };
 
